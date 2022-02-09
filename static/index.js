@@ -441,11 +441,11 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
             SubmitResults();
         }
 
-        if (cps <= 5) return '试着好好练一下？';
-        if (cps <= 8) return 'TCL';
-        if (cps <= 10)  return 'TQL';
-        if (cps <= 15) return '您';
-        return '人？';
+        if (cps <= 5) return '给你机会你不中用啊！';
+        if (cps <= 8) return '太菜啦！';
+        if (cps <= 10)  return '不是吧不是吧';
+        if (cps <= 15) return '就这？';
+        return '有...有胆刚枪（心虚）';
     }
 
     function toStr(obj) {
